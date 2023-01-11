@@ -1,0 +1,1399 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&family=Noto+Serif+Khojki&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.background {
+    width: 100%;
+    height: 6700px;
+    position: absolute;
+}
+
+/* NAVİGATİON */
+nav {
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(230, 230, 230);
+    background-image: url(İmg/navbackground.webp);
+    width: 100%;
+    height: 80px;
+}
+
+nav .logo {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 200px;
+    font-size: 25px;
+
+}
+
+nav .logo p {
+    color: black;
+    font-family: 'Niconne', cursive;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul {
+    margin-top: 10px;
+    display: flex;
+    justify-content: right;
+    padding-right: 200px;
+}
+
+
+nav ul li a {
+    color: black;
+    display: block;
+    padding: 15px;
+    font-family: 'Noto Serif Khojki', serif;
+}
+
+nav ul li a.home {
+    color: rgb(239, 159, 10);
+}
+
+nav ul li a:hover {
+    color: rgb(239, 159, 10);
+}
+
+
+
+
+/* HEADER */
+header .im {
+    color: rgb(127, 71, 71);
+}
+
+.centered {
+    font-family: 'Noto Serif Khojki', serif;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 200px;
+    font-size: 23px;
+}
+
+.resim1 {
+    position: absolute;
+    margin-left: 820px;
+    margin-top: 150px;
+    height: 60%;
+}
+
+.buttons {
+    display: flex;
+}
+
+.viev {
+    font-size: 15px;
+    margin-top: 30px;
+    height: 50px;
+    width: 150px;
+    background-color: rgb(143, 57, 20);
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+    padding-left: 30px;
+    padding-top: 8px;
+}
+
+.buttons i {
+    font-size: 50px;
+    margin-top: 30px;
+    margin-left: 130px;
+    cursor: pointer;
+}
+
+.buttons i:hover {
+    color: rgb(14, 198, 14);
+}
+
+.intro {
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 18px;
+    color: rgb(187, 125, 9);
+}
+
+
+
+
+/* Main */
+/* 1.BÖLÜM */
+.main1 {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.817);
+    height: 65%;
+    width: 100%;
+    margin-top: 700px;
+}
+
+.text1 {
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+    margin-left: 200px;
+    margin-top: 70px;
+    font-size: 25px;
+}
+
+.aboutme {
+    padding-bottom: 20px;
+    color: rgb(143, 57, 20);
+}
+
+.text2 {
+    position: relative;
+    margin-left: 825px;
+}
+
+.text2lorem {
+    margin-top: 60px;
+}
+
+.text2sayilar {
+    display: flex;
+    margin-left: 60px;
+    margin-top: 70px;
+    font-size: 30px;
+}
+
+.ikon {
+    position: absolute;
+    font-size: 35px;
+    margin-left: 10px;
+}
+
+.ikon2 {
+    position: absolute;
+    font-size: 35px;
+    margin-left: 240px;
+}
+
+.sayi2 {
+    margin-left: 140px;
+}
+
+.arti {
+    color: rgb(131, 215, 4);
+    font-size: 20px;
+    position: absolute;
+    display: flex;
+    margin-left: 150px;
+    font-weight: bold;
+}
+
+.arti2 {
+    margin-left: 215px;
+}
+
+.altyazi {
+    display: flex;
+    font-size: 15px;
+    margin-left: 60px;
+    color: gray;
+
+}
+
+.altyazi2 {
+    margin-left: 130px;
+}
+
+
+
+
+
+
+
+/* 2.BÖLÜM */
+.main2 {
+    position: absolute;
+    margin-top: 1330px;
+    margin-left: 310px;
+}
+
+.main2x1 {
+    display: flex;
+    font-size: 45px;
+    font-family: 'Playfair Display', serif;
+}
+
+.turuncukisim {
+    margin-left: 7px;
+    color: rgb(143, 57, 20);
+}
+
+.clients {
+    margin-left: 7px;
+}
+
+.kutular {
+    display: inline-block;
+}
+
+.kutu1 {
+    background-color: white;
+    width: 300px;
+    height: 250px;
+    margin-top: 240px;
+
+}
+
+.kutu1yazilar {
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 30px;
+    font-size: 17px;
+}
+
+.grdesign {
+    padding-bottom: 10px;
+    color: rgb(57, 57, 57);
+}
+
+.kutulorem1 {
+    color: rgb(176, 175, 175);
+}
+
+.k1icon {
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 45px;
+    color: rgb(81, 78, 73);
+}
+
+.kutu2 {
+    position: absolute;
+    background-color: rgb(162, 68, 6);
+    width: 300px;
+    height: 250px;
+    margin-left: 310px;
+}
+
+.k2icon {
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 45px;
+    color: azure;
+}
+
+.fedeveloper {
+    padding-bottom: 10px;
+}
+
+.kutulorem2 {
+    color: rgb(176, 175, 175);
+}
+
+.kutu2yazilar {
+    position: absolute;
+    margin-left: 30px;
+    font-size: 17px;
+    margin-top: 110px;
+    color: white;
+}
+
+.kutu3 {
+    position: absolute;
+    background-color: white;
+    width: 300px;
+    height: 250px;
+    margin-left: 310px;
+}
+
+.k3icon {
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 45px;
+    color: rgb(42, 37, 37);
+}
+
+.uidesigner {
+    padding-bottom: 10px;
+}
+
+.kutulorem3 {
+    color: rgb(176, 175, 175);
+}
+
+.kutu3yazilar {
+    position: absolute;
+    margin-left: 30px;
+    font-size: 17px;
+    margin-top: 110px;
+}
+
+
+
+
+/* 3.BÖLÜM */
+.main3 {
+    position: absolute;
+    background-color: rgba(251, 250, 250, 0.814);
+    margin-top: 2000px;
+    width: 100%;
+    height: 900px;
+}
+
+.m3yazilar {
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 200px;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.m3lorem {
+    margin-left: 790px;
+    margin-top: 110px;
+    line-height: 25px;
+    color: gray;
+}
+
+.grafik1 {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 60px;
+}
+
+.g1yuzde {
+    position: absolute;
+    margin-left: 440px;
+}
+
+.grafik1yazilar {
+    display: flex;
+    cursor: text;
+}
+
+.grafik2 {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 120px;
+}
+
+.g2yuzde {
+    position: absolute;
+    margin-left: 430px;
+}
+
+.grafik2yazilar {
+    display: flex;
+}
+
+.grafik3 {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 180px;
+}
+
+.g3yuzde {
+    position: absolute;
+    margin-left: 410px;
+}
+
+.grafik3yazilar {
+    display: flex;
+}
+
+.grafik4 {
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 60px;
+}
+
+.g4yuzde {
+    position: absolute;
+    margin-left: 390px;
+}
+
+.grafik4yazilar {
+    display: flex;
+}
+
+.grafik5 {
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 120px;
+}
+
+.g5yuzde {
+    position: absolute;
+    margin-left: 375px;
+}
+
+.grafik5yazilar {
+    display: flex;
+}
+
+.grafik6 {
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 180px;
+}
+
+.g6yuzde {
+    position: absolute;
+    margin-left: 405px;
+}
+
+.grafik6yazilar {
+    display: flex;
+}
+
+
+
+.m3kutular {
+    display: inline-block;
+    position: absolute;
+}
+
+.m3kutu1 {
+    position: absolute;
+    background-color: white;
+    width: 350px;
+    height: 250px;
+    margin-top: 270px;
+    margin-left: 200px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.m3kutu1yazilar {
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 40px;
+    font-size: 17px;
+}
+
+.singapore {
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
+.m3grdesign {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(57, 57, 57);
+    font-family: 'Playfair Display', serif;
+    color: rgb(143, 57, 20);
+}
+
+.m3kutulorem1 {
+    color: rgb(176, 175, 175);
+    line-height: 25px;
+}
+
+
+.m3kutu2 {
+    position: absolute;
+    background-color: white;
+    width: 350px;
+    height: 250px;
+    margin-top: 270px;
+    margin-left: 600px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.m3kutu2yazilar {
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 40px;
+    font-size: 17px;
+}
+
+.tokopedia {
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
+.m3uidesigner {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(57, 57, 57);
+    font-family: 'Playfair Display', serif;
+    color: rgb(143, 57, 20);
+}
+
+.m3kutulorem2 {
+    color: rgb(176, 175, 175);
+    line-height: 25px;
+}
+
+
+.m3kutu3 {
+    background-color: white;
+    width: 350px;
+    height: 250px;
+    margin-top: 270px;
+    margin-left: 1000px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.m3kutu3yazilar {
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 40px;
+    font-size: 17px;
+}
+
+.appleinc {
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
+.m3webdesigner {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(57, 57, 57);
+    font-family: 'Playfair Display', serif;
+    color: rgb(143, 57, 20);
+}
+
+.m3kutulorem3 {
+    color: rgb(176, 175, 175);
+    line-height: 25px;
+}
+
+.indir {
+    display: flex;
+    position: absolute;
+    background-color: rgb(143, 57, 20);
+    color: white;
+    width: 195px;
+    height: 55px;
+    margin-top: 590px;
+    margin-left: 650px;
+    padding-left: 35px;
+    padding-top: 15px;
+    cursor: pointer;
+
+}
+.cv {
+    position: absolute;
+    margin-left: 30px;
+}.cv a{
+    color: white;
+}
+
+
+
+
+/* 4.BÖLÜM */
+
+.main4 {
+    position: absolute;
+    width: 100%;
+    margin-top: 2950px;
+}
+
+.m4yazilar {
+    text-align: center;
+}
+
+.m4myportfolio {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgb(143, 57, 20);
+    font-family: 'Playfair Display', serif;
+}
+
+.m4lorem {
+    line-height: 25px;
+    color: gray;
+}
+
+.m4kutu1 {
+    background-color: #8F3F0942;
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    margin-top: 50px;
+    margin-left: 208px;
+}
+
+.içkutu1 {
+    background-color: white;
+    width: 270px;
+    height: 270px;
+    margin-top: 45px;
+    margin-left: 45px;
+}
+
+.m4yazi1 {
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Playfair Display', serif;
+}
+
+.m4kutu1uidesign {
+    color: rgb(0, 71, 0);
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 80px;
+    font-size: 15px;
+}
+
+
+.m4kutu2 {
+    background-color: #8F3F0942;
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    margin-top: 50px;
+    margin-left: 590px;
+}
+
+.içkutu2 {
+    background-color: white;
+    width: 270px;
+    height: 270px;
+    margin-top: 45px;
+    margin-left: 45px;
+}
+
+.m4yazi2 {
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Playfair Display', serif;
+}
+
+.m4kutu2uidesign {
+    color: rgb(0, 71, 0);
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 80px;
+    font-size: 15px;
+}
+
+
+.m4kutu3 {
+    background-color: #8F3F0942;
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    margin-top: 50px;
+    margin-left: 970px;
+}
+
+.içkutu3 {
+    background-color: white;
+    width: 270px;
+    height: 270px;
+    margin-top: 45px;
+    margin-left: 45px;
+}
+
+.m4yazi3 {
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Playfair Display', serif;
+}
+
+.m4kutu3webdesign {
+    color: rgb(0, 71, 0);
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 80px;
+    font-size: 15px;
+}
+
+
+.m4kutu4 {
+    background-color: #8F3F0942;
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    margin-top: 440px;
+    margin-left: 208px;
+}
+
+.içkutu4 {
+    background-color: white;
+    width: 270px;
+    height: 270px;
+    margin-top: 45px;
+    margin-left: 45px;
+}
+
+.m4yazi4 {
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Playfair Display', serif;
+}
+
+.m4kutu4appdesign {
+    color: rgb(0, 71, 0);
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 80px;
+    font-size: 15px;
+}
+
+
+.m4kutu5 {
+    background-color: #8F3F0942;
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    margin-top: 440px;
+    margin-left: 590px;
+}
+
+.içkutu5 {
+    background-color: white;
+    width: 270px;
+    height: 270px;
+    margin-top: 45px;
+    margin-left: 45px;
+}
+
+.m4yazi5 {
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Playfair Display', serif;
+}
+
+.m4kutu5uidesign {
+    color: rgb(0, 71, 0);
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 80px;
+    font-size: 15px;
+}
+
+
+.m4kutu6 {
+    background-color: #8F3F0942;
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    margin-top: 440px;
+    margin-left: 970px;
+}
+
+.içkutu6 {
+    background-color: white;
+    width: 270px;
+    height: 270px;
+    margin-top: 45px;
+    margin-left: 45px;
+}
+
+.m4yazi6 {
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Playfair Display', serif;
+}
+
+.m4kutu6webdesign {
+    color: rgb(0, 71, 0);
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 80px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+/* 5.BÖLÜM */
+
+.main5 {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.767);
+    height: 55%;
+    width: 100%;
+    margin-top: 3920px;
+}
+
+.m5yazilar {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.m5baslik {
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+}
+
+.m5lorem {
+    margin-top: 25px;
+    color: gray;
+    line-height: 30px;
+}
+
+.m5contact {
+    margin-left: 680px;
+    margin-top: 30px;
+    width: 160px;
+    height: 50px;
+    background-color: rgb(143, 57, 20);
+    padding-top: 15px;
+}
+.m5contact a{
+    color: white;
+}
+
+/* 6.BÖLÜM */
+
+.main6 {
+    width: 100%;
+    position: absolute;
+    margin-top: 4400px;
+}
+
+.m6yazilar {
+    text-align: center;
+}
+
+.m6testimonial {
+    color: rgb(143, 57, 20);
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+}
+
+.m6wtsaboutme {
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    color: gray;
+}
+
+.m6lorem {
+    padding-top: 20px;
+    line-height: 23px;
+    color: rgb(58, 58, 58);
+}
+
+.m6kutu1 {
+    position: absolute;
+    background-color: #f2f2f257;
+    width: 350px;
+    height: 280px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.m6kutu1lorem {
+    font-family: 'Playfair Display', serif;
+    margin-top: 40px;
+    margin-left: 50px;
+    color: rgb(104, 104, 104);
+    font-size: 17px;
+    line-height: 26px;
+}
+
+.m6kutu1resim {
+    display: flex;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.m6manager {
+    margin-top: 10px;
+    margin-left: 20px;
+    line-height: 25px;
+    font-size: 13px;
+}
+
+.santino {
+    color: rgb(68, 171, 250);
+}
+
+.m6smanager {
+    color: rgb(104, 104, 104);
+}
+
+.m6kutu2 {
+    position: absolute;
+    background-color: #f2f2f257;
+    width: 350px;
+    height: 280px;
+    margin-top: 50px;
+    margin-left: 570px;
+}
+
+.m6kutu2lorem {
+    font-family: 'Playfair Display', serif;
+    margin-top: 40px;
+    margin-left: 50px;
+    color: rgb(104, 104, 104);
+    font-size: 17px;
+    line-height: 26px;
+}
+
+.m6kutu2resim {
+    display: flex;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.ceo {
+    margin-top: 10px;
+    margin-left: 20px;
+    line-height: 25px;
+    font-size: 13px;
+}
+
+.jovan {
+    color: rgb(68, 171, 250);
+}
+
+.m6jceo {
+    color: rgb(104, 104, 104);
+}
+
+.m6kutu3 {
+    position: absolute;
+    background-color: #f2f2f257;
+    width: 350px;
+    height: 280px;
+    margin-top: 50px;
+    margin-left: 940px;
+}
+
+.m6kutu3lorem {
+    font-family: 'Playfair Display', serif;
+    margin-top: 40px;
+    margin-left: 50px;
+    color: rgb(104, 104, 104);
+    font-size: 17px;
+    line-height: 26px;
+}
+
+.m6kutu3resim {
+    display: flex;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.m6entrepreneur {
+    margin-top: 10px;
+    margin-left: 20px;
+    line-height: 25px;
+    font-size: 13px;
+}
+
+.dennis {
+    color: rgb(68, 171, 250);
+}
+
+.m6dentrepreneur {
+    color: rgb(104, 104, 104);
+}
+
+.m6icon {
+    color: rgb(7, 187, 7);
+    margin-left: 50px;
+    margin-top: 15px;
+    font-size: 40px;
+}
+
+/* 7.BÖLÜM */
+.main7{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.746);
+    height: 72%;
+    width: 100%;
+    margin-top: 5020px;
+}
+.m7yazilar{
+    margin-top: 75px;
+    margin-left: 200px;
+}
+.m7baslik{
+    font-size: 30px;
+    line-height: 55px;
+    font-family: 'Playfair Display', serif;
+}
+.m7lorem{
+    margin-top: 30px;
+    line-height: 25px;
+}
+.m7gitouch{
+    color: rgb(143, 57, 20);
+}
+.m7affordable{
+    color: #573939;
+}
+
+.m7x1{
+    position: absolute;
+    display: flex;
+    margin-left: 200px;
+    margin-top: 27px;
+}
+.m7x1icon{
+    padding-top: 22px;
+    font-size: 25px;
+    width: 70px;
+    height: 70px;
+    background-color: #8F3F09;
+    color: white;
+    text-align: center;
+    
+}
+.m7x1bilgi{
+    margin-left: 20px;
+    line-height: 30px;
+}
+.m7x1located{
+    font-size: 30px;
+    color: rgb(143, 57, 20);
+    font-family: 'Playfair Display', serif;
+}
+.m7x1sunset{
+    color: rgb(104, 104, 104);
+}
+
+
+.m7x2{
+    position: absolute;
+    display: flex;
+    margin-left: 740px;
+    margin-top: 27px;
+    
+}
+.m7x2icon{
+    padding-top: 22px;
+    font-size: 25px;
+    width: 70px;
+    height: 70px;
+    background-color: #8F3F09;
+    color: white;
+    text-align: center;
+    
+}
+.m7x2bilgi{
+    margin-left: 20px;
+    line-height: 30px;
+}
+.m7x2phone{
+    font-size: 30px;
+    color: rgb(143, 57, 20);
+    font-family: 'Playfair Display', serif;
+}
+.m7x2numara{
+    color: rgb(104, 104, 104);
+}
+
+
+.m7x3{
+    position: absolute;
+    display: flex;
+    margin-left: 200px;
+    margin-top: 120px;
+}
+.m7x3icon{
+    padding-top: 22px;
+    font-size: 25px;
+    width: 70px;
+    height: 70px;
+    background-color: #8F3F09;
+    color: white;
+    text-align: center;
+    
+}
+.m7x3bilgi{
+    margin-left: 20px;
+    line-height: 30px;
+}
+.m7x3email{
+    font-size: 30px;
+    color: rgb(143, 57, 20);
+    font-family: 'Playfair Display', serif;
+}
+.m7x3info{
+    color: rgb(104, 104, 104);
+}
+
+
+.m7x4{
+    position: absolute;
+    display: flex;
+    margin-left: 740px;
+    margin-top: 120px;
+}
+.m7x4icon{
+    padding-top: 22px;
+    font-size: 25px;
+    width: 70px;
+    height: 70px;
+    background-color: #8F3F09;
+    color: white;
+    text-align: center;
+    
+}
+.m7x4bilgi{
+    margin-left: 20px;
+    line-height: 30px;
+}
+.m7x4smedia{
+    font-size: 30px;
+    color: rgb(143, 57, 20);
+    font-family: 'Playfair Display', serif;
+}
+.m7x4username{
+    color: rgb(104, 104, 104);
+}
+
+/* 8.BÖLÜM */
+
+.main8 {
+    width: 100%;
+    position: absolute;
+    margin-top: 5640px;
+}
+
+.m8yazilar {
+    text-align: center;
+}
+
+.m8blog {
+    color: rgb(143, 57, 20);
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+}
+
+.m8latest {
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    color: gray;
+}
+
+.m8lorem {
+    padding-top: 20px;
+    line-height: 23px;
+    color: rgb(58, 58, 58);
+}
+
+.m8kutular{
+    display: flex;
+}
+
+.m8kutu1{
+    background-image: url(İmg/m8kutu1.jpg);
+    border-radius: 10px;
+    width: 350px;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.m8kutu1yazilar{
+    margin-top: 320px;
+}
+.m8kutu1designer{
+    color: rgb(143, 57, 20);
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    margin-bottom: 10px; 
+}
+.m8kutu1attractive{
+    margin-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: rgb(73, 57, 57);
+}
+.m8kutu1lorem{
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(104, 104, 104);
+}
+
+.m8kutu1buton{
+    display: flex;
+    color: rgb(143, 57, 20);
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.m8kutu1ikon1{
+    margin-left: 5px;
+}
+.m8kutu1ikon2{
+    color: black;
+    margin-left: 230px;
+}
+
+
+
+.m8kutu2{
+    background-image: url(İmg/m8kutu2.jpg);
+    border-radius: 10px;
+    width: 350px;
+    height: 300px;
+    margin-left: 35px;
+    margin-top: 50px;
+}
+.m8kutu2yazilar{
+    margin-top: 320px;
+}
+.m8kutu2designer{
+    color: rgb(143, 57, 20);
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    margin-bottom: 10px; 
+}
+.m8kutu2attractive{
+    margin-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: rgb(73, 57, 57);
+}
+.m8kutu2lorem{
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(104, 104, 104);
+}
+
+.m8kutu2buton{
+    display: flex;
+    color: rgb(143, 57, 20);
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.m8kutu2ikon1{
+    margin-left: 5px;
+}
+.m8kutu2ikon2{
+    color: black;
+    margin-left: 230px;
+}
+
+
+
+.m8kutu3{
+    background-image: url(İmg/m8kutu2.jpg);
+    border-radius: 10px;
+    width: 350px;
+    height: 300px;
+    margin-left: 35px;
+    margin-top: 50px;
+}
+.m8kutu3yazilar{
+    margin-top: 320px;
+}
+.m8kutu3designer{
+    color: rgb(143, 57, 20);
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    margin-bottom: 10px; 
+}
+.m8kutu3attractive{
+    margin-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: rgb(73, 57, 57);
+}
+.m8kutu3lorem{
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(104, 104, 104);
+}
+
+.m8kutu3buton{
+    display: flex;
+    color: rgb(143, 57, 20);
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.m8kutu3ikon1{
+    margin-left: 5px;
+}
+.m8kutu3ikon2{
+    color: black;
+    margin-left: 230px;
+}
+
+/* FOOTER */
+.footer{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 270px;
+    margin-top: 6430px;
+}
+.ftkutu{
+    position: absolute;
+    background-image: url(İmg/ftarkaplan.jpg);
+    width: 74%;
+    height: 210px;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.ftlogo{
+    color: black;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+}
+.ftlogo{
+        cursor: text;
+        color: black;
+        font-family: 'Niconne', cursive;
+    }
+footer ul{
+    margin-top: 20px;
+    display: flex;
+    justify-content: right;
+    padding-right: 300px;
+    font-size: 17px;
+}
+footer ul li a{
+    color: black;
+    display: block;
+    padding: 20px;
+    text-align: right;
+    font-family: 'Noto Serif Khojki', serif;
+}
+.ftprivacy a{
+    color: black;
+}
+.ftprivacy{
+    display: flex;
+    padding-top: 80px;
+    padding-left: 20px;
+}
+.ftterms{
+    margin-left: 18px;
+}
+.ftcopyright{
+    margin-left: 580px;
+}
